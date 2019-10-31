@@ -1,0 +1,87 @@
+2019-08-14 23:12:34,073 - root - ERROR - test--this is a error
+2019-08-14 23:15:36,858 - root - ERROR - test--this is a error
+2019-08-14 23:29:23,497 - root - INFO - this is info
+2019-08-14 23:39:25,339 - root - ERROR - this is info
+2019-08-14 23:39:52,252 - root - ERROR - 不存在的账户,无法提现
+2019-08-14 23:39:52,252 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-14 23:41:05,644 - root - ERROR - 不存在的账户,无法提现
+2019-08-14 23:41:05,644 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-14 23:42:05,078 - root - ERROR - 不存在的账户,无法提现
+2019-08-14 23:42:05,078 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-14 23:44:03,358 - root - ERROR - 不存在的账户,无法提现
+2019-08-14 23:44:03,359 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 19:59:50,131 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 19:59:50,131 - root - ERROR - must have exactly one of create/read/write/append mode
+2019-08-15 20:00:31,137 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 20:00:31,137 - root - ERROR - must have exactly one of create/read/write/append mode
+2019-08-15 20:01:33,364 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 20:01:33,364 - root - ERROR - must have exactly one of create/read/write/append mode
+2019-08-15 20:06:41,215 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 20:06:41,215 - root - ERROR - I/O operation on closed file.
+2019-08-15 20:14:16,693 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 20:14:16,694 - root - ERROR - Extra data: line 1 column 74 (char 73)
+2019-08-15 20:14:23,918 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 20:14:23,918 - root - ERROR - Extra data: line 1 column 74 (char 73)
+2019-08-15 21:17:39,893 - root - ERROR - 王佳宁账户余额不足，提现失败
+2019-08-15 21:27:25,781 - root - ERROR - 王佳宁账户余额不足，提现失败
+2019-08-15 21:32:23,220 - root - ERROR - 王佳宁账户余额不足，提现失败
+2019-08-15 22:42:26,764 - root - INFO - flow_logger
+2019-08-15 22:43:27,622 - root - INFO - 11flow_logger
+2019-08-15 22:47:48,259 - root - INFO - 22flow_logger
+2019-08-15 22:48:59,289 - root - ERROR - 33flow_logger
+2019-08-15 22:49:40,233 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:49:40,233 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:49:49,305 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:49:49,305 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:51:07,482 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:51:07,482 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:51:15,615 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:51:15,615 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:52:09,053 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:52:09,054 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:52:50,262 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:52:50,262 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:53:07,042 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:53:07,043 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:54:00,492 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:54:00,493 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:56:15,430 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:56:15,430 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 22:57:36,529 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 22:57:36,529 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:08:26,847 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:08:26,847 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:08:59,760 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:08:59,760 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:09:16,021 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:09:16,022 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:09:45,003 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:09:45,003 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:14:10,322 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:14:16,934 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:19:13,893 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:19:20,935 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:28:26,502 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:28:26,502 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:28:43,500 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:28:43,500 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:38:42,251 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:38:42,251 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-15 23:55:35,253 - root - ERROR - 不存在的账户,无法提现
+2019-08-15 23:55:35,254 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-16 22:35:17,274 - root - ERROR - 还款失败，王佳宁账户不存在
+2019-08-16 22:35:17,275 - root - ERROR - tuple index out of range
+2019-08-16 22:36:50,988 - root - ERROR - 还款失败，王佳宁账户不存在
+2019-08-16 22:36:50,988 - root - ERROR - tuple index out of range
+2019-08-16 22:38:11,908 - root - ERROR - 还款失败，王佳宁账户不存在
+2019-08-16 22:38:11,908 - root - ERROR - tuple index out of range
+2019-08-16 22:39:07,092 - root - INFO - >>> 王佳宁还款1000元,余额:13000,可用额度:15000.0
+2019-08-16 22:43:11,990 - root - INFO - >>> 王佳宁还款1000元,余额:0,可用额度:8650.0
+2019-08-16 22:43:17,033 - root - INFO - >>> 王佳宁还款1000元,余额:0,可用额度:9650.0
+2019-08-16 22:43:28,601 - root - INFO - >>> 王佳宁还款350元,余额:0,可用额度:10000.0
+2019-08-16 22:43:39,687 - root - INFO - >>> 王佳宁还款10000元,余额:5000.0,可用额度:15000
+2019-08-16 22:44:01,192 - root - INFO - >>> 王佳宁还款6000元,余额:11000.0,可用额度:15000
+2019-08-16 22:47:14,404 - root - ERROR - 还款失败，佳宁账户不存在
+2019-08-16 22:47:14,404 - root - ERROR - [Errno 2] No such file or directory: '../data/佳宁_6228481234.txt'
+2019-08-16 22:48:33,277 - root - INFO - >>> 王佳宁还款2000元,余额:13000.0,可用额度:15000
+2019-08-16 22:51:32,142 - root - INFO - >>> 王佳宁还款2000元,余额:15000.0,可用额度:15000

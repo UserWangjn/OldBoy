@@ -1,0 +1,8 @@
+username=admin
+passwd=123
+
+username2=wjn
+passwd=qwe
+
+username3=qqq
+passwd=asd

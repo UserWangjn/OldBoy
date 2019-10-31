@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my_first_form</title>
+</head>
+<body>
+
+<form action="127.0.0.1:8090/index" method="get">
+    <p>用户名:<input type="text" name="username"></p>
+    <p>密  码:<input type="password" name="passwd"></p>
+    <p><input type="button" value="press"></p>
+    <p>爱好：篮球<input type="checkbox" name="hobby" value="101">
+    足球<input type="checkbox" name="hobby" value="102">
+    </p>
+<!--    name属性是给服务器看的-->
+    <p>性别：男<input type="radio" name="sex" value="1">
+        女<input type="radio" name="sex" value="0"></p>
+    <p><input type="file"></p>
+    <p><input type="submit" value="press"></p>
+    <p><input type="reset"></p>
+</form>
+
+</body>
+</html>
