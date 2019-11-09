@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" id="clock" style="width: 300px">
+<input type="submit" value="begin" onclick="click_begin()">
+<input type="submit" value="End" name="" id="" onclick="End()">
+
+<script>
+    var ID;
+    function click_begin(){
+        set_clock();
+        // console.log(ID);
+        if (ID==undefined){
+            ID = setInterval(set_clock,1000);
+        }
+
+    }
+    function get_cweek() {
+        var time_obj = new Date();
+        var cweek = time_obj.getDay();
+        var week_list = ["星期日","星期一","星期二","星期三","星期四",
+            "星期五","星期六"];
+        cweek = week_list[cweek]
+        return cweek;
+    }
+    function get_ctime() {
+        var time_obj = new Date();
+        var ctime = time_obj.toLocaleTimeString();
+        var year = time_obj.getFullYear();
+        var month = time_obj.getMonth()+1;
+        // var day = time_obj.getDay();
+        var date = time_obj.getDate();
+        // console.log(day);
+        return year+"年"+month+"月"+date+"日"+" "+ctime+" "+get_cweek();
+    }
+    function set_clock() {
+        var clock_id = document.getElementById("clock");
+        clock_id.value = get_ctime();
+    }
+    function End() {
+        clearInterval(ID);
+        // console.log("111:"+ID);
+        ID=undefined;
+        // console.log("222:"+ID);
+    }
+</script>
+
+</body>
+</html>
