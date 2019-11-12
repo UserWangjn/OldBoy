@@ -16,7 +16,7 @@
         set_clock();
         // console.log(ID);
         if (ID==undefined){
-            ID = setInterval(set_clock,1000);
+            ID = setInterval(set_clock,1000);   //setInterval 定时器
         }
 
     }
@@ -43,7 +43,7 @@
         clock_id.value = get_ctime();
     }
     function End() {
-        clearInterval(ID);
+        clearInterval(ID);      //clearInterval取消定时器
         // console.log("111:"+ID);
         ID=undefined;
         // console.log("222:"+ID);
