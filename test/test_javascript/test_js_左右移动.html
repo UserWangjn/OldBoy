@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select name="" id="left" multiple size="10">
+    <option value="">选项一</option>
+    <option value="">选项二</option>
+    <option value="">选项三</option>
+    <option value="">选项四</option>
+</select>
+<div id="choice">
+    <input type="button" value="--->" onclick="add()">
+
+</div>
+
+<select name="" id="right" multiple size="10">
+    <option value="">选择五</option>
+</select>
+</body>
+
+<script>
+    var right=document.getElementById("right");
+    var left=document.getElementById("left");
+    function add() {
+            var options=left.children;
+            for (var i=0;i<options.length;i++){
+                if(options[i].selected==true){
+                    right.appendChild(options[i])
+                }
+            }
+    }
+</script>
+
+</html>

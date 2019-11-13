@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<select name="" id="province">
+    <option value="hebei">河北省</option>
+    <option value="henan">河南省</option>
+    <option value="heilongjang">黑龙江省</option>
+</select>
+<select name="" id="city" class="hebei">
+    <option value="baodingshi" class="hebei">保定市</option>
+    <option value="handanshi" class="hebei">邯郸市</option>
+    <option value="zhengzhoushi" class="henan">郑州市</option>
+    <option value="zhoukoushi" class="henan">周口市</option>
+    <option value="shenyangshi" class="heilongjiang">沈阳市</option>
+    <option value="liaoyangshi" class="heilongjiang">辽阳市</option>
+</select>
+<input type="button" name="" id="hide_city" value="press">
+
+
+
+</body>
+</html>
+
+<script>
+
+    var ele = document.getElementById("hide_city");
+
+    ele.onclick=function () {
+        var hide_city = document.getElementById("city");
+        hide_city.classList.add("hide")
+    }
+
+    // function hide_city() {
+    //     var hide_city = document.getElementById("city");
+    //     hide_city.classList.add("hide")
+    // }
+
+</script>
