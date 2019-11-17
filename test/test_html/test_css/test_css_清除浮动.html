@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .item{
+            height: 150px;
+            width: 180px;
+            background-color: #1f9347;
+            border: 1px solid red;
+        }
+        .left{
+            float: left;
+        }
+        .contain{
+            background-color: #9c9c9c;
+        }
+        .clearfix:after{
+            content: '00';
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contain clearfix">
+    <div class="item left"></div>
+    <div class="item left"></div>
+    <div class="item left"></div>
+    <div class="item left"></div>
+</div>
+<div>wjn</div>
+
+</body>
+</html>
